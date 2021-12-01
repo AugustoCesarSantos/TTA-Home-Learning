@@ -1,0 +1,102 @@
+@charset"UTF-8";
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-image: linear-gradient(to right, rgb(25, 100, 129), white);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 80, 80);
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(20, 98, 134);
+}
+
+main {
+    margin-top: 1px;
+    margin-right: 2%;
+    height: 447px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+footer {
+    height: 125px;
+    background-color: rgb(53, 48, 48);
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: "smaller";
+}
+
+a:active {
+    color: none;
+}
+
+table {
+    column-gap: 50cm;
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+td {
+    padding: 10px;
+}
+
+a {
+    color: inherit
+}
+
+a:visited {
+    color: white;
+}
+
+form {
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+
+form>div1 {
+    text-align: center;
+}
+
+form>div2 {
+    width: 50%;
+    text-align: center;
+    top: 25%;
+    left: 25%;
+}
