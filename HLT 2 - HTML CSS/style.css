@@ -1,6 +1,7 @@
 @charset"UTF-8";
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
 }
 
 main {
@@ -81,22 +82,27 @@ a:visited {
 
 form {
     background-color: white;
-    max-width: 500px;
-    width: 70%;
+    max-width: 450px;
+    width: 50%;
+    height: 50%;
     padding: 20px;
     position: absolute;
     left: 50%;
-    top: 5%;
+    top: 51%;
     transform: translate(-50%, -50%);
+    font-size: smaller
+    
 }
 
 form>div1 {
     text-align: center;
+
 }
 
 form>div2 {
     width: 50%;
-    text-align: center;
+    text-align: center
     top: 25%;
     left: 25%;
+    height: 10%;
 }
