@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>HLT3 Form</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="header">
+            <h1>Aplication Form</h1>
+            <p>Thank you for get in contact.</p>
+            <p>We will porcess your aplliaction asap and back to you.</p>
+        </div>
+<br>
+        <form action="" class="form">
+            <label for="name">First name</label><br>
+            <input type="text" class="name" placeholder="your name" id="name" size="40" required><br>
+
+            <label for="lastname">Last name</label><br>
+            <input type="text" class="lastname" placeholder="last surname" id="lastname" size="40" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" class="Email" name="email" id="email" placeholder="your email" size="40" required><br>
+
+            <label for="mobile">Mobile number</label><br>
+            <input type="tel" class="mobile" placeholder="your telephone" id="mobile" size="40" required><br>
+
+            <label for="contry">Contry</label><br>
+            <select id="country" name="country" placeholder="Select" required><br>
+                <optgroup label="Europe">
+                    <option value="Austria">Austria</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Russia">Russia</option> 
+                    <option value="Spain">Spain</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="United Kindgom" selected>United Kindgom</option>
+                </optgroup>
+                <optgroup label="North America">
+                    <option value="Canada">Canada</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="United States of America">United States of America</option>
+                </optgroup>
+                <optgroup label="South America">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Uruguay">Uruguay</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="China">China</option>
+                    <option value="Hong Kong">Hong Kong</option> 
+                    <option value="Japan">Japan</option>
+                    <option value="South Korea">South Korea</option>                    
+                </optgroup>
+            </select>   
+            <br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id=gender checked> 
+            <label for="male" >Male</label>
+            <input type="radio" name="gender" id=gender> 
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id=gender> 
+            <label for="prefernotsay">Prefer not say</label>
+            <br><br>
+
+            <label for="hobbies">Hobbies<p style="font-size: smaller; font-style: italic; color: rgb(184, 112, 112); font-weight: lighter;">(optional)</p></label> 
+            <input type="checkbox" name="hobbies" id="sports"> 
+            <label for="sports">Sports</label>
+            <input type="checkbox" name="hobbies" id="movies"> 
+            <label for="movies">Movies</label>
+            <input type="checkbox" name="hobbies" id="music"> 
+            <label for="music">Music</label>
+            <br>
+           <center>
+               <button type="submit" name="acao" value="Submit" id="button">Submit</button>              
+           </center>
+               
+        </form>
+        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
